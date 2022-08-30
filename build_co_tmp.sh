@@ -60,7 +60,7 @@ build () {
         ./configure --prefix=$builddir $flags
 
         if [ $path = "libmmap" ]; then
-            cp --archive /inst/chiquita_5gen_tmp/Makefile /inst/5gen-c/libmmap/tests
+            cp --archive /inst/chiquita_5gen_tmp/Makefile /inst/5gen-c/circ-obfuscation/libmmap/tests
         fi
 
         make
