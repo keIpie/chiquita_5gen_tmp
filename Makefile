@@ -88,8 +88,7 @@ POST_UNINSTALL = :
 build_triplet = x86_64-unknown-linux-gnu
 host_triplet = x86_64-unknown-linux-gnu
 am__append_1 = -I$(includedir)/oz
-check_PROGRAMS = test_mmap$(EXEEXT) test_mmap_mat$(EXEEXT) \
-	write_encoding$(EXEEXT)
+check_PROGRAMS = test_mmap$(EXEEXT) test_mmap_mat$(EXEEXT)
 subdir = tests
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps =  \
